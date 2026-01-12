@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left ">
+            <div class="close">
+                <img class="invert" src="close.svg" alt="">
+            </div>
+            <div class="home bg-gray rounded m-1 p-1">
+                <div class="logo">
+                    <img class="invert" src="logo.svg" alt="">
+                </div>
+                <ul>
+                    <li><img class="invert" src="home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="search.svg" alt="home">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-gray rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="playlist.svg" alt="">
+                    <h2>Your Library</h2>
+                </div>
+                <div class="songlist">
+                    <ul>
+                        <li>
+                            <img src="music.svg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer">
+                <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Privacy Center</span></a></div>
+                <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a></div>
+                <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+                <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+            </div>
+        </div>
+
+        <div class="right bg-gray rounded p-1">
+            <div class="header">
+                <div class="nav">
+                    <div class="hamburgerConatiner">
+                        <div class="hamburger">
+                            <img class="invert hamburger" src="hamburger.svg" alt="">
+                        </div>
+                        <img class="invert" src="angle-left.svg" alt="">
+                        <img class="invert" src="angle-right.svg" alt="">
+                    </div>
+                </div>
+                <div class="button">
+                    <button class="signinbtn">Sign up</button>
+                    <button class="loginbtn">Login</button>
+                </div>
+            </div>
+            <div class="SpotifyPlaylist">
+                <div>
+                    <h2>Trending songs</h2>
+                    <div class="cardContainer">
+                        <div class="card">
+                            <div class="play">
+                                <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="30" cy="30" r="28" fill="#1ed760" />
+                                    <polygon points="24,18 42,30 24,42" fill="black" />
+                                </svg>
+                            </div>
+                            <img src="s-1.jpg" alt="">
+                            <h4>Aadat (Feat. AP Dhillon)</h4>
+                            <p>Yo Yo Honey Singh</p>
+                            <p>AP Dhillon</p>
+                        </div>
+                        <div class="card">
+                            <div class="play">
+                                <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="30" cy="30" r="28" fill="#1ed760" />
+                                    <polygon points="24,18 42,30 24,42" fill="black" />
+                                </svg>
+                            </div>
+                            <img src="s-2.jpg" alt="">
+                            <h4>Guns and Roses (From "They Call Him OG")</h4>
+                            <p>Thaman S, Harsha</p>
+                            <p>Darivemula</p>
+                        </div>
+                        <div class="card">
+                            <div class="play">
+                                <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="30" cy="30" r="28" fill="#1ed760" />
+                                    <polygon points="24,18 42,30 24,42" fill="black" />
+                                </svg>
+                            </div>
+                            <img src="s-4.jpg" alt="">
+                            <h4>Kokaina</h4>
+                            <p>Badshah, Simiran Kaur</p>
+                            <p>Dhadli,Hiten</p>
+
+                        </div>
+                        <div class="card">
+                            <div class="play">
+                                <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="30" cy="30" r="28" fill="#1ed760" />
+                                    <polygon points="24,18 42,30 24,42" fill="black" />
+                                </svg>
+                            </div>
+                            <img src="s-3.jpg" alt="">
+                            <h4>PERFECT (From "Sunny Sanskari Ki Tulsi Kumari)</h4>
+                            <p>Guru Randhawa,Gill</p>
+                            <p>Machhrai</p>
+                        </div>
+                        <div class="card">
+                            <div class="play">
+                                <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="30" cy="30" r="28" fill="#1ed760" />
+                                    <polygon points="24,18 42,30 24,42" fill="black" />
+                                </svg>
+                            </div>
+                            <img src="s-5.jpg" alt="">
+                            <h4>Sundari</h4>
+                            <p>Sanju Rathod,G-SPXRK</p>
+                        </div>
+                    </div>
+                    <div><h2>Romantic songs</h2></div>
+                      <div class="cardContainer">
+                          <div class="card">
+                              <div class="play">
+                                  <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                      <circle cx="30" cy="30" r="28" fill="#1ed760" />
+                                      <polygon points="24,18 42,30 24,42" fill="black" />
+                                    </svg>
+                                </div>
+                                <img src="s-6.jpeg" alt="">
+                                <h4>Ishq hai</h4>
+                                <p>Anurag Saikia,Raj Shekhar,Romy,Amarabha Banerjee...</p>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+                <div class="abovebar">
+
+                    <div class="songinfo">
+
+                    </div>
+                    <div class="songbutton">
+                        <img width="40" id="previous" src="prevsong.svg" alt="">
+                        <img width="40" id="play" src="play.svg" alt="">
+                        <img width="40" id="next" src="nextsong.svg" alt="">
+                    </div>
+                    <div class="rightside">
+                        <div class="songtime">
+
+                        </div>
+                        <div class="volume">
+                            <img src="volume.svg" alt="">
+                            <div class="range">
+                                <input type="range" name="volume" min="0" max="1" step="0.01" id="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
