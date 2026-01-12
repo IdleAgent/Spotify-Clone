@@ -42,7 +42,7 @@ spotify-clone/
 
 You can run this project locally or host it using GitHub Pages.
 
-If hosted, your live demo will appear here:
+If hosted, your live demo will appear here:https://spotify-clone-b9ab.vercel.app/
 
 ---
 
